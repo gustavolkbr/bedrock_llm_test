@@ -1,3 +1,21 @@
 {
-  "targets": {}
+  "targets": {
+    "default": {
+      "resources": {
+        "harnesses": {
+          "MyHarness": {
+            "harnessId": "cosmeticBot2_MyHarness-VEEr5lU6aw",
+            "harnessArn": "arn:aws:bedrock-agentcore:us-east-2:936573659585:harness/cosmeticBot2_MyHarness-VEEr5lU6aw",
+            "roleArn": "arn:aws:iam::936573659585:role/cosmeticBot2_MyHarness",
+            "status": "READY",
+            "harnessVersion": 2,
+            "agentRuntimeArn": "arn:aws:bedrock-agentcore:us-east-2:936573659585:runtime/harness_cosmeticBot2_MyHarness-okj2heEfhc",
+            "provisioner": "cloudformation"
+          }
+        },
+        "stackName": "AgentCore-cosmeticBot2-default",
+        "deployHash": "57d65cf3e36f03af"
+      }
+    }
+  }
 }
