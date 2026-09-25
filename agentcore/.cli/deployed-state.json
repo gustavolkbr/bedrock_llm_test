@@ -2,19 +2,25 @@
   "targets": {
     "default": {
       "resources": {
+        "evaluators": {
+          "MyEvaluator": {
+            "evaluatorId": "cosmeticBot2_MyEvaluator-xHPLYUFx3k",
+            "evaluatorArn": "arn:aws:bedrock-agentcore:us-east-2:936573659585:evaluator/cosmeticBot2_MyEvaluator-xHPLYUFx3k"
+          }
+        },
         "harnesses": {
           "MyHarness": {
             "harnessId": "cosmeticBot2_MyHarness-VEEr5lU6aw",
             "harnessArn": "arn:aws:bedrock-agentcore:us-east-2:936573659585:harness/cosmeticBot2_MyHarness-VEEr5lU6aw",
             "roleArn": "arn:aws:iam::936573659585:role/cosmeticBot2_MyHarness",
             "status": "READY",
-            "harnessVersion": 2,
+            "harnessVersion": 5,
             "agentRuntimeArn": "arn:aws:bedrock-agentcore:us-east-2:936573659585:runtime/harness_cosmeticBot2_MyHarness-okj2heEfhc",
             "provisioner": "cloudformation"
           }
         },
         "stackName": "AgentCore-cosmeticBot2-default",
-        "deployHash": "57d65cf3e36f03af"
+        "deployHash": "79e6bc1a43207319"
       }
     }
   }
